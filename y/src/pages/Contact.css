@@ -1,0 +1,94 @@
+.contact5{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.contact5 .c2{
+    background-color: #0f172a;
+    height: 25rem;
+    width: 40rem;
+    padding-top: 2rem;
+    border-radius: 1.5rem;
+}
+
+.contact5 .c2 input{
+    width: 90%;
+    height: 2.5rem;
+    margin-left: 2rem;
+    border-radius: 0.52rem;
+    border: none;
+    background-color: #b4c4e7;
+}
+
+.contact5 .c2 button{
+    height: 2.5rem;
+    background-color: #b4c4e7;
+    margin-left: 2.5rem;
+    border: none;
+    width: 6rem;
+    font-size: large;
+    border-radius: 2rem;
+}
+
+.contact5 .c1{
+    margin-top: 3rem;
+}
+
+.contact5 .c1 h1{
+    font-size: 46px;
+}
+
+.contact5 .c1 h3{
+    font-size: small;
+}
+
+
+
+
+
+
+
+/* start */
+.footer{
+    background-color: #0f172a;
+    height: 6rem;
+    display: flex;
+    gap: 6rem;
+}
+
+.footer .f1{
+    display: grid;
+    margin-left: 2rem;
+}
+
+.footer .f1 img{
+    margin-left: 7rem;
+    margin-top: 1rem;
+}
+
+.footer .f2{
+    margin-top: 0.52rem;
+}
+/* end */
+
+@media(max-width: 480px){
+    .contact5{
+        display: block;
+        padding: 0.5rem;
+        padding-top: 0%;
+    }
+    .footer .f2{
+        display: none;
+    }
+    .footer h2{
+        font-size: large;
+    }
+    .contact5 .c2{
+        width: 18rem;
+    }
+    .contact5 .c2 input{
+        width: 14rem;
+    }
+}
